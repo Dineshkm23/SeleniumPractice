@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T20:06:24 GST" name="Default suite" finished-at="2024-03-28T20:06:29 GST" duration-ms="5081">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T20:06:24 GST" name="Default test" finished-at="2024-03-28T20:06:29 GST" duration-ms="5081">
+      <class name="testngsessions.priorityConcepts">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:24 GST" name="launchBrowser" finished-at="2024-03-28T20:06:29 GST" duration-ms="4562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC101_getTitle()[pri:-1, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC101_getTitle" finished-at="2024-03-28T20:06:29 GST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_getTitle -->
+        <test-method signature="TC102_getCurrentUrl()[pri:0, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="TC102_getCurrentUrl" finished-at="2024-03-28T20:06:29 GST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102_getCurrentUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.priorityConcepts@e350b40]" started-at="2024-03-28T20:06:29 GST" name="tearDown" finished-at="2024-03-28T20:06:29 GST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngsessions.priorityConcepts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
