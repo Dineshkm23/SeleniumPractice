@@ -1,6 +1,7 @@
 package seleniumPractice;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,6 +28,17 @@ public class DragAndDrop {
 		WebElement capitalWashington= driver.findElement(By.xpath("//div[@id='box103']/div[@id='box3']"));
 		action.dragAndDrop(capitalWashington, dropLocation).perform();
 		System.out.println("Done");
+		
+		WebElement rome= driver.findElement(By.id("box6"));
+		int x=756;
+		int y=411;
+		
+	x=driver.findElement(By.id("box102")).getLocation().getX();
+	y=driver.findElement(By.id("box102")).getLocation().getY();
+	System.out.println("X and Y:"+x+" ,"+y);
+	//	action.dragAndDropBy(rome, x,y).perform();
+		action.clickAndHold(rome).moveByOffset(x, y).release().build().perform();
+			
 	}
 
 }

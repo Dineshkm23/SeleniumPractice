@@ -1,0 +1,2678 @@
+Administrator@DESKTOP-UAOKV2O MINGW64 ~
+$ pwd
+/c/Users/Administrator
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~
+$ cd C:\\Users\\Administrator\\eclipse-workspace\\JavaSessions
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ pwd
+/c/Users/Administrator/eclipse-workspace/JavaSessions
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset c47ad7b6e29dc83e5246a688ffacca7500f6242a
+Unstaged changes after reset:
+M       src/ExceptionHandling/FinalKey.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/ExceptionHandling/FinalKey.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "2nd time"
+[master ddf1afc] 2nd time
+ 1 file changed, 3 deletions(-)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+To https://github.com/Dineshkm23/JavaSessions.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dineshkm23/JavaSessions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push --help
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git remote add origin-push https://github.com/Dineshkm23/JavaSessions
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+To https://github.com/Dineshkm23/JavaSessions.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dineshkm23/JavaSessions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+warning: Cannot merge binary files: bin/ExceptionHandling/FinalKey.class (HEAD vs. 4f5a5c2b309390edabc95361824401d14b7e3f40)
+Auto-merging bin/ExceptionHandling/FinalKey.class
+CONFLICT (content): Merge conflict in bin/ExceptionHandling/FinalKey.class
+Auto-merging src/ExceptionHandling/FinalKey.java
+CONFLICT (content): Merge conflict in src/ExceptionHandling/FinalKey.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   bin/ExceptionHandling/FinalKey.class
+        both modified:   src/ExceptionHandling/FinalKey.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git merge --abort
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+
+bash: it: command not found
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+To https://github.com/Dineshkm23/JavaSessions.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dineshkm23/JavaSessions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git remote add origin https://github.com/Dineshkm23/JavaSessions.git
+error: remote origin already exists.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "updating"
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/ExceptionHandling/FinalKey.class
+        modified:   src/ExceptionHandling/FinalKey.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "updating"
+[master 8bf5c53] updating
+ 2 files changed, 1 insertion(+)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push irgin master
+fatal: 'irgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+To https://github.com/Dineshkm23/JavaSessions.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dineshkm23/JavaSessions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+warning: Cannot merge binary files: bin/ExceptionHandling/FinalKey.class (HEAD vs. 4f5a5c2b309390edabc95361824401d14b7e3f40)
+Auto-merging bin/ExceptionHandling/FinalKey.class
+CONFLICT (content): Merge conflict in bin/ExceptionHandling/FinalKey.class
+Auto-merging src/ExceptionHandling/FinalKey.java
+CONFLICT (content): Merge conflict in src/ExceptionHandling/FinalKey.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   bin/ExceptionHandling/FinalKey.class
+        both modified:   src/ExceptionHandling/FinalKey.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git commit -m "updating"
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+U       bin/ExceptionHandling/FinalKey.class
+U       src/ExceptionHandling/FinalKey.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git merge master
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ status
+bash: status: command not found
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   bin/ExceptionHandling/FinalKey.class
+        modified:   src/ExceptionHandling/FinalKey.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   bin/ExceptionHandling/FinalKey.class
+        modified:   src/ExceptionHandling/FinalKey.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/ExceptionHandling/FinalKey.class
+        modified:   src/ExceptionHandling/FinalKey.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git commit -m "updating"
+[master 4f72dad] updating
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (29/29), 2.41 KiB | 2.41 MiB/s, done.
+Total 29 (delta 24), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (24/24), completed with 7 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   4f5a5c2..4f72dad  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bin/ExceptionHandling/test1.class
+        src/ExceptionHandling/test1.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "added test1 class"
+[master d6ffbad] added test1 class
+ 2 files changed, 10 insertions(+)
+ create mode 100644 bin/ExceptionHandling/test1.class
+ create mode 100644 src/ExceptionHandling/test1.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.10 KiB | 1.10 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   4f72dad..d6ffbad  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    bin/ExceptionHandling/test1.class
+        deleted:    src/ExceptionHandling/test1.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "deleted test1 class"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    bin/ExceptionHandling/test1.class
+        deleted:    src/ExceptionHandling/test1.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    bin/ExceptionHandling/test1.class
+        deleted:    src/ExceptionHandling/test1.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "deleted test1 class"
+[master 64b30db] deleted test1 class
+ 2 files changed, 10 deletions(-)
+ delete mode 100644 bin/ExceptionHandling/test1.class
+ delete mode 100644 src/ExceptionHandling/test1.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 661 bytes | 661.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   d6ffbad..64b30db  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch
+* master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch checkout
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch checkout test1
+fatal: a branch named 'checkout' already exists
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout branch test1
+error: pathspec 'branch' did not match any file(s) known to git
+error: pathspec 'test1' did not match any file(s) known to git
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branches
+git: 'branches' is not a git command. See 'git --help'.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch
+  checkout
+* master
+  test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch checkout test1
+fatal: a branch named 'checkout' already exists
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout test1
+Switched to branch 'test1'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git branch
+  checkout
+  master
+* test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git checkout master
+Switched to branch 'master'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch
+  checkout
+* master
+  test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout test1
+Switched to branch 'test1'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git branch
+  checkout
+  master
+* test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git checkout master
+Switched to branch 'master'
+M       bin/superKeyword/HomePage.class
+M       src/superKeyword/HomePage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/superKeyword/HomePage.class
+        modified:   src/superKeyword/HomePage.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout test1
+Switched to branch 'test1'
+M       bin/superKeyword/HomePage.class
+M       src/superKeyword/HomePage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/superKeyword/HomePage.class
+        modified:   src/superKeyword/HomePage.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git commit -m "commiting code to test1 branch"
+[test1 1a9c17f] commiting code to test1 branch
+ 3 files changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git push origin test1
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 835 bytes | 835.00 KiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'test1' on GitHub by visiting:
+remote:      https://github.com/Dineshkm23/JavaSessions/pull/new/test1
+remote:
+To https://github.com/Dineshkm23/JavaSessions.git
+ * [new branch]      test1 -> test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/ExceptionHandling/FinalKey.class
+        modified:   src/ExceptionHandling/FinalKey.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git commit -m "commiting updated code to test1 branch"
+On branch test1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/ExceptionHandling/FinalKey.class
+        modified:   src/ExceptionHandling/FinalKey.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git commit -m "commiting updated code to test1 branch"
+[test1 9deba5f] commiting updated code to test1 branch
+ 2 files changed, 2 insertions(+)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git push origin test1
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 843 bytes | 843.00 KiB/s, done.
+Total 8 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   1a9c17f..9deba5f  test1 -> test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git checkout master
+Switched to branch 'master'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 2.59 KiB | 177.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   64b30db..835e10e  master     -> origin/master
+error: The following untracked working tree files would be overwritten by merge:
+        .gitignore
+Please move or remove them before you merge.
+Aborting
+Updating 64b30db..835e10e
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+error: The following untracked working tree files would be overwritten by merge:
+        .gitignore
+Please move or remove them before you merge.
+Aborting
+Updating 64b30db..835e10e
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Updating 64b30db..835e10e
+Fast-forward
+ .gitignore                           |   1 +
+ bin/ExceptionHandling/FinalKey.class | Bin 611 -> 623 bytes
+ bin/superKeyword/HomePage.class      | Bin 612 -> 612 bytes
+ src/ExceptionHandling/FinalKey.java  |   2 ++
+ src/superKeyword/HomePage.java       |   1 +
+ 5 files changed, 4 insertions(+)
+ create mode 100644 .gitignore
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/javasessionpractice/calculation.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout test1
+Switched to branch 'test1'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/javasessionpractice/calculation.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/javasessionpractice/calculation.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git commit -m "added calculation java class"
+[test1 590d6b6] added calculation java class
+ 1 file changed, 47 insertions(+)
+ create mode 100644 src/javasessionpractice/calculation.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git push origin test1
+To https://github.com/Dineshkm23/JavaSessions.git
+ ! [rejected]        test1 -> test1 (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dineshkm23/JavaSessions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    src/javasessionpractice/calculation.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    src/javasessionpractice/calculation.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git push origin test1
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1001 bytes | 1001.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   2763440..5bf7465  test1 -> test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git status
+On branch test1
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (test1)
+$ git checkout master
+Switched to branch 'master'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 908 bytes | 113.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   835e10e..24ba638  master     -> origin/master
+Updating 835e10e..24ba638
+Fast-forward
+ src/javasessionpractice/calculation.java | 47 ++++++++++++++++++++++++++++++++
+ 1 file changed, 47 insertions(+)
+ create mode 100644 src/javasessionpractice/calculation.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.19 KiB | 22.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   24ba638..403843b  master     -> origin/master
+Updating 24ba638..403843b
+Fast-forward
+ src/ExceptionHandling/Testingpage.java | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 src/ExceptionHandling/Testingpage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/ExceptionHandling/Testingpage.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "updated the testing java class"
+[master f597ca7] updated the testing java class
+ 1 file changed, 2 deletions(-)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 420 bytes | 420.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   403843b..f597ca7  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch orderPage
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout orderPage
+Switched to branch 'orderPage'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git status
+On branch orderPage
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/ExceptionHandling/orderPage.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git commit -m "Orderpage class created "
+[orderPage ff4afbb] Orderpage class created
+ 1 file changed, 12 insertions(+)
+ create mode 100644 src/ExceptionHandling/orderPage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git checkout master
+Switched to branch 'master'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.17 KiB | 21.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   f597ca7..036975a  master     -> origin/master
+Updating f597ca7..036975a
+Fast-forward
+ src/ExceptionHandling/TestingOrderPage.java | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 src/ExceptionHandling/TestingOrderPage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout orderPage
+Switched to branch 'orderPage'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git merge master
+Merge made by the 'ort' strategy.
+ src/ExceptionHandling/TestingOrderPage.java | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 src/ExceptionHandling/TestingOrderPage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git branch
+  checkout
+  master
+* orderPage
+  test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (orderPage)
+$ git checkout master
+Switched to branch 'master'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch cartpage
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git branch
+  cartpage
+  checkout
+* master
+  orderPage
+  test1
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git checkout checkout
+Switched to branch 'checkout'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (checkout)
+$ git checkout master
+Switched to branch 'master'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git --online
+unknown option: --online
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git --online--
+unknown option: --online--
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --oneline
+036975a (HEAD -> master, origin/master, cartpage) Create TestingOrderPage.java
+f597ca7 updated the testing java class
+403843b Create Testingpage.java
+24ba638 Merge pull request #4 from Dineshkm23/test1
+5bf7465 (origin/test1, test1) pulling updated code from master branch Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+590d6b6 added calculation java class
+835e10e Merge pull request #3 from Dineshkm23/test1
+2763440 Merge pull request #2 from Dineshkm23/master
+9deba5f commiting updated code to test1 branch
+0f0c44d Merge pull request #1 from Dineshkm23/test1
+1a9c17f commiting code to test1 branch
+64b30db (checkout) deleted test1 class
+d6ffbad added test1 class
+4f72dad updating
+8bf5c53 updating
+562d83b commiting from Git Gui1
+ddf1afc 2nd time
+4f5a5c2 updating the codeee
+3ca3d54 Revert "Updated from Git edit"
+c47ad7b Updated from Git edit
+180314f Revert "Update FinalKey.java"
+79409b8 Update FinalKey.java
+d443726 added some code in Final class
+533dd04 Added Final key class
+7fc4531 added some codes
+c0901ff My first commit
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    src/ExceptionHandling/TestingOrderPage.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "deleted testing order page class"
+[master f47cefc] deleted testing order page class
+ 1 file changed, 12 deletions(-)
+ delete mode 100644 src/ExceptionHandling/TestingOrderPage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 354 bytes | 354.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   036975a..f47cefc  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --oneline
+f47cefc (HEAD -> master, origin/master) deleted testing order page class
+036975a (cartpage) Create TestingOrderPage.java
+f597ca7 updated the testing java class
+403843b Create Testingpage.java
+24ba638 Merge pull request #4 from Dineshkm23/test1
+5bf7465 (origin/test1, test1) pulling updated code from master branch Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+590d6b6 added calculation java class
+835e10e Merge pull request #3 from Dineshkm23/test1
+2763440 Merge pull request #2 from Dineshkm23/master
+9deba5f commiting updated code to test1 branch
+0f0c44d Merge pull request #1 from Dineshkm23/test1
+1a9c17f commiting code to test1 branch
+64b30db (checkout) deleted test1 class
+d6ffbad added test1 class
+4f72dad updating
+8bf5c53 updating
+562d83b commiting from Git Gui1
+ddf1afc 2nd time
+4f5a5c2 updating the codeee
+3ca3d54 Revert "Updated from Git edit"
+c47ad7b Updated from Git edit
+180314f Revert "Update FinalKey.java"
+79409b8 Update FinalKey.java
+d443726 added some code in Final class
+533dd04 Added Final key class
+7fc4531 added some codes
+c0901ff My first commit
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (HEAD -> master, origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+commit 036975abacc736bed6b8d69fb76232ca5ee99cad (cartpage)
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:27:20 2024 +0400
+
+    Create TestingOrderPage.java
+
+commit f597ca784810cb866a20fc7106da7c551ff8030b
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 16:22:47 2024 +0400
+
+    updated the testing java class
+
+commit 403843bfaa4301812f56b0d53805e06f845510f4
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:20:12 2024 +0400
+
+    Create Testingpage.java
+
+commit 24ba638bb4e891ffc3ae29843902227213f68726
+Merge: 835e10e 5bf7465
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 01:04:16 2024 +0400
+
+    Merge pull request #4 from Dineshkm23/test1
+
+    merging calculation class to master
+
+commit 5bf74651829b81242c21d29fdacc7d18c9057da1 (origin/test1, test1)
+Merge: 590d6b6 835e10e
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 00:58:09 2024 +0400
+
+    pulling updated code from master branch
+    Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+
+commit 590d6b6778f9b1adec164f74faa129e3eb4ecb90
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 00:57:27 2024 +0400
+
+    added calculation java class
+
+:
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (HEAD -> master, origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+commit 036975abacc736bed6b8d69fb76232ca5ee99cad (cartpage)
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:27:20 2024 +0400
+
+    Create TestingOrderPage.java
+
+commit f597ca784810cb866a20fc7106da7c551ff8030b
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 16:22:47 2024 +0400
+
+    updated the testing java class
+
+commit 403843bfaa4301812f56b0d53805e06f845510f4
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:20:12 2024 +0400
+
+    Create Testingpage.java
+
+commit 24ba638bb4e891ffc3ae29843902227213f68726
+Merge: 835e10e 5bf7465
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 01:04:16 2024 +0400
+
+    Merge pull request #4 from Dineshkm23/test1
+
+    merging calculation class to master
+
+commit 5bf74651829b81242c21d29fdacc7d18c9057da1 (origin/test1, test1)
+Merge: 590d6b6 835e10e
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 00:58:09 2024 +0400
+
+    pulling updated code from master branch
+    Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+
+commit 590d6b6778f9b1adec164f74faa129e3eb4ecb90
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 00:57:27 2024 +0400
+
+    added calculation java class
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --before=2024-05-12
+commit 036975abacc736bed6b8d69fb76232ca5ee99cad (cartpage)
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:27:20 2024 +0400
+
+    Create TestingOrderPage.java
+
+commit f597ca784810cb866a20fc7106da7c551ff8030b
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 16:22:47 2024 +0400
+
+    updated the testing java class
+
+commit 403843bfaa4301812f56b0d53805e06f845510f4
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:20:12 2024 +0400
+
+    Create Testingpage.java
+
+commit 24ba638bb4e891ffc3ae29843902227213f68726
+Merge: 835e10e 5bf7465
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 01:04:16 2024 +0400
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --after=2024-05-13
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --after=2024-05-12
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (HEAD -> master, origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --3
+fatal: unrecognized argument: --3
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log -3
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (HEAD -> master, origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+commit 036975abacc736bed6b8d69fb76232ca5ee99cad (cartpage)
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:27:20 2024 +0400
+
+    Create TestingOrderPage.java
+
+commit f597ca784810cb866a20fc7106da7c551ff8030b
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 16:22:47 2024 +0400
+
+    updated the testing java class
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ got show Head
+bash: got: command not found
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ got show head
+bash: got: command not found
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ got show HEAD
+bash: got: command not found
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git show head
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (HEAD -> master, origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+diff --git a/src/ExceptionHandling/TestingOrderPage.java b/src/ExceptionHandling/TestingOrderPage.java
+deleted file mode 100644
+index ce0f6e3..0000000
+--- a/src/ExceptionHandling/TestingOrderPage.java
++++ /dev/null
+@@ -1,12 +0,0 @@
+-package ExceptionHandling;
+-
+-public class TestingOrderPage {
+-
+-       public static void main(String[] args) {
+-               // TODO Auto-generated method stub
+-
+-               String i= "TestingOrderPage___ Rahul";
+-
+-       }
+-
+-}
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/ExceptionHandling/OrderPage.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "added order page class from eclipse"
+[master 5019567] added order page class from eclipse
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/OrderPage.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log
+commit 5019567cc708fd6d659686ad2a72896b46e0041e (HEAD -> master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:53:30 2024 +0400
+
+    added order page class from eclipse
+
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+commit 036975abacc736bed6b8d69fb76232ca5ee99cad (cartpage)
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:27:20 2024 +0400
+
+    Create TestingOrderPage.java
+
+commit f597ca784810cb866a20fc7106da7c551ff8030b
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 16:22:47 2024 +0400
+
+    updated the testing java class
+
+commit 403843bfaa4301812f56b0d53805e06f845510f4
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 16:20:12 2024 +0400
+
+    Create Testingpage.java
+
+commit 24ba638bb4e891ffc3ae29843902227213f68726
+Merge: 835e10e 5bf7465
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Sat May 11 01:04:16 2024 +0400
+
+    Merge pull request #4 from Dineshkm23/test1
+
+    merging calculation class to master
+
+commit 5bf74651829b81242c21d29fdacc7d18c9057da1 (origin/test1, test1)
+Merge: 590d6b6 835e10e
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Sat May 11 00:58:09 2024 +0400
+
+    pulling updated code from master branch
+    Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git show --after=2024-05-13
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git show --after=2024-05-12
+commit 5019567cc708fd6d659686ad2a72896b46e0041e (HEAD -> master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:53:30 2024 +0400
+
+    added order page class from eclipse
+
+diff --git a/src/ExceptionHandling/OrderPage.java b/src/ExceptionHandling/OrderPage.java
+new file mode 100644
+index 0000000..a7d8054
+--- /dev/null
++++ b/src/ExceptionHandling/OrderPage.java
+@@ -0,0 +1,10 @@
++package ExceptionHandling;
++
++public class OrderPage {
++
++       public static void main(String[] args) {
++               // TODO Auto-generated method stub
++System.out.println("Order page from eclipse");
++       }
++
++}
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git show HEAD
+commit 5019567cc708fd6d659686ad2a72896b46e0041e (HEAD -> master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:53:30 2024 +0400
+
+    added order page class from eclipse
+
+diff --git a/src/ExceptionHandling/OrderPage.java b/src/ExceptionHandling/OrderPage.java
+new file mode 100644
+index 0000000..a7d8054
+--- /dev/null
++++ b/src/ExceptionHandling/OrderPage.java
+@@ -0,0 +1,10 @@
++package ExceptionHandling;
++
++public class OrderPage {
++
++       public static void main(String[] args) {
++               // TODO Auto-generated method stub
++System.out.println("Order page from eclipse");
++       }
++
++}
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git show
+commit 5019567cc708fd6d659686ad2a72896b46e0041e (HEAD -> master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:53:30 2024 +0400
+
+    added order page class from eclipse
+
+diff --git a/src/ExceptionHandling/OrderPage.java b/src/ExceptionHandling/OrderPage.java
+new file mode 100644
+index 0000000..a7d8054
+--- /dev/null
++++ b/src/ExceptionHandling/OrderPage.java
+@@ -0,0 +1,10 @@
++package ExceptionHandling;
++
++public class OrderPage {
++
++       public static void main(String[] args) {
++               // TODO Auto-generated method stub
++System.out.println("Order page from eclipse");
++       }
++
++}
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log -1
+commit 5019567cc708fd6d659686ad2a72896b46e0041e (HEAD -> master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:53:30 2024 +0400
+
+    added order page class from eclipse
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log -2
+commit 5019567cc708fd6d659686ad2a72896b46e0041e (HEAD -> master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:53:30 2024 +0400
+
+    added order page class from eclipse
+
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ got shortlog
+bash: got: command not found
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git shortlog
+Dinesh (20):
+      My first commit
+      added some codes
+      Added Final key class
+      added some code in Final class
+      Revert "Update FinalKey.java"
+      Revert "Updated from Git edit"
+      updating the codeee
+      2nd time
+      commiting from Git Gui1
+      updating
+      updating
+      added test1 class
+      deleted test1 class
+      commiting code to test1 branch
+      commiting updated code to test1 branch
+      added calculation java class
+      pulling updated code from master branch Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+      updated the testing java class
+      deleted testing order page class
+      added order page class from eclipse
+
+Dineshkm23 (8):
+      Update FinalKey.java
+      Updated from Git edit
+      Merge pull request #1 from Dineshkm23/test1
+      Merge pull request #2 from Dineshkm23/master
+      Merge pull request #3 from Dineshkm23/test1
+      Merge pull request #4 from Dineshkm23/test1
+      Create Testingpage.java
+      Create TestingOrderPage.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git shortlog^C
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git show f47cefc40a3cbcfa8b0a82c430e62d112f863a02
+commit f47cefc40a3cbcfa8b0a82c430e62d112f863a02 (origin/master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:46:00 2024 +0400
+
+    deleted testing order page class
+
+diff --git a/src/ExceptionHandling/TestingOrderPage.java b/src/ExceptionHandling/TestingOrderPage.java
+deleted file mode 100644
+index ce0f6e3..0000000
+--- a/src/ExceptionHandling/TestingOrderPage.java
++++ /dev/null
+@@ -1,12 +0,0 @@
+-package ExceptionHandling;
+-
+-public class TestingOrderPage {
+-
+-       public static void main(String[] args) {
+-               // TODO Auto-generated method stub
+-
+-               String i= "TestingOrderPage___ Rahul";
+-
+-       }
+-
+-}
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git show 5019567cc708fd6d659686ad2a72896b46e0041e
+commit 5019567cc708fd6d659686ad2a72896b46e0041e (HEAD -> master)
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 21:53:30 2024 +0400
+
+    added order page class from eclipse
+
+diff --git a/src/ExceptionHandling/OrderPage.java b/src/ExceptionHandling/OrderPage.java
+new file mode 100644
+index 0000000..a7d8054
+--- /dev/null
++++ b/src/ExceptionHandling/OrderPage.java
+@@ -0,0 +1,10 @@
++package ExceptionHandling;
++
++public class OrderPage {
++
++       public static void main(String[] args) {
++               // TODO Auto-generated method stub
++System.out.println("Order page from eclipse");
++       }
++
++}
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/ExceptionHandling/Google.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 558 bytes | 558.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   f47cefc..5019567  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/ExceptionHandling/Google.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.16 KiB | 23.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   5019567..c0ca98c  master     -> origin/master
+error: The following untracked working tree files would be overwritten by merge:
+        src/ExceptionHandling/Google.java
+Please move or remove them before you merge.
+Aborting
+Updating 5019567..c0ca98c
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/ExceptionHandling/Google.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "Google from eclipse"
+[master 65b0211] Google from eclipse
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/Google.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Auto-merging src/ExceptionHandling/Google.java
+CONFLICT (add/add): Merge conflict in src/ExceptionHandling/Google.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both added:      src/ExceptionHandling/Google.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both added:      src/ExceptionHandling/Google.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git commit -m "updated Google page class"
+[master b9f0ef0] updated Google page class
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 896 bytes | 896.00 KiB/s, done.
+Total 10 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   c0ca98c..b9f0ef0  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.07 KiB | 40.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   b9f0ef0..7fe55c5  master     -> origin/master
+Updating b9f0ef0..7fe55c5
+Fast-forward
+ src/ExceptionHandling/Google.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/ExceptionHandling/Google.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.05 KiB | 21.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   7fe55c5..b7159e3  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        src/ExceptionHandling/Google.java
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 7fe55c5..b7159e3
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+        src/ExceptionHandling/Google.java
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 7fe55c5..b7159e3
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "updated Google page class one more time from exlipse"
+[master be3e30a] updated Google page class one more time from exlipse
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Auto-merging src/ExceptionHandling/Google.java
+CONFLICT (content): Merge conflict in src/ExceptionHandling/Google.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   src/ExceptionHandling/Google.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git commit -m "updated Google page class one more time from exlipse"
+[master 4ccb2b4] updated Google page class one more time from exlipse
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 899 bytes | 899.00 KiB/s, done.
+Total 10 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   b7159e3..4ccb2b4  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.08 KiB | 29.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   4ccb2b4..5fc67e9  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        src/ExceptionHandling/Google.java
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 4ccb2b4..5fc67e9
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "added regPage in Google class"
+[master 9ea584d] added regPage in Google class
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Auto-merging src/ExceptionHandling/Google.java
+CONFLICT (content): Merge conflict in src/ExceptionHandling/Google.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git commit -m "ipdate"
+[master 7f5f72d] ipdate
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 873 bytes | 873.00 KiB/s, done.
+Total 10 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   5fc67e9..7f5f72d  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "added again regpage class"
+[master b406c12] added again regpage class
+ 1 file changed, 3 insertions(+)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.08 KiB | 34.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   7f5f72d..644ded4  master     -> origin/master
+Auto-merging src/ExceptionHandling/Google.java
+CONFLICT (content): Merge conflict in src/ExceptionHandling/Google.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master|MERGING)
+$ git commit -m "update"
+[master c726738] update
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 855 bytes | 855.00 KiB/s, done.
+Total 10 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   644ded4..c726738  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m " added firefox"
+[master 29ec40e]  added firefox
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/firefox.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.13 KiB | 43.00 KiB/s, done.
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+   c726738..ec48c9d  master     -> origin/master
+Merge made by the 'ort' strategy.
+ src/ExceptionHandling/Chrome.java | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/Chrome.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m ""
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 891 bytes | 891.00 KiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), completed with 3 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   ec48c9d..5c2d838  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/ExceptionHandling/Chrome.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "updated chrome"
+[master f843b48] updated chrome
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log
+commit f843b48eddf157b97780d60cefe2d6f4574c3e86 (HEAD -> master)
+Author: Dinesh <dineshdk	tdkm@gmail.com>
+Date:   Mon May 13 23:04:01 2024 +0400
+
+    updated chrome
+
+commit 5c2d8383909aa528fc9d48e46677a8864ab71f8c (origin/master)
+Merge: 29ec40e ec48c9d
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 22:44:14 2024 +0400
+
+    pulling latest code
+    Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions
+
+commit 29ec40e91a5d325e70d32bf5a7663d0dde666f56
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 22:44:05 2024 +0400
+
+     added firefox
+
+commit ec48c9dbe8ea5f3bc03cc0d946be3066bd28e770
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Mon May 13 22:43:40 2024 +0400
+
+    Create Chrome.java
+
+commit c7267382fa3dd3c1b79aa73dbaa5960822b5d914
+Merge: b406c12 644ded4
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 22:42:24 2024 +0400
+
+    update
+
+commit b406c126c63b767ae6fd604d692e6f32a4cc5dde
+Author: Dinesh <dineshdk.tdkm@gmail.com>
+Date:   Mon May 13 22:41:07 2024 +0400
+
+    added again regpage class
+
+commit 644ded47e1c9f2fdc6ba416822226a7dfb5b4983
+Author: Dineshkm23 <83826114+Dineshkm23@users.noreply.github.com>
+Date:   Mon May 13 22:40:48 2024 +0400
+
+    Update Google.java
+
+commit 7f5f72dbdcd20c14f10a686c1e0aef1055d748d4
+Merge: 9ea584d 5fc67e9
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --oneline
+f843b48 (HEAD -> master) updated chrome
+5c2d838 (origin/master) pulling latest code Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions
+29ec40e  added firefox
+ec48c9d Create Chrome.java
+c726738 update
+b406c12 added again regpage class
+644ded4 Update Google.java
+7f5f72d ipdate
+9ea584d added regPage in Google class
+5fc67e9 Update Google.java
+4ccb2b4 updated Google page class one more time from exlipse
+be3e30a updated Google page class one more time from exlipse
+b7159e3 Update Google.java
+7fe55c5 Update Google.java
+b9f0ef0 updated Google page class
+65b0211 Google from eclipse
+c0ca98c Create Google.java
+5019567 added order page class from eclipse
+f47cefc deleted testing order page class
+036975a (cartpage) Create TestingOrderPage.java
+f597ca7 updated the testing java class
+403843b Create Testingpage.java
+24ba638 Merge pull request #4 from Dineshkm23/test1
+5bf7465 (origin/test1, test1) pulling updated code from master branch Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+590d6b6 added calculation java class
+835e10e Merge pull request #3 from Dineshkm23/test1
+2763440 Merge pull request #2 from Dineshkm23/master
+9deba5f commiting updated code to test1 branch
+0f0c44d Merge pull request #1 from Dineshkm23/test1
+1a9c17f commiting code to test1 branch
+64b30db (checkout) deleted test1 class
+d6ffbad added test1 class
+4f72dad updating
+8bf5c53 updating
+562d83b commiting from Git Gui1
+ddf1afc 2nd time
+4f5a5c2 updating the codeee
+3ca3d54 Revert "Updated from Git edit"
+c47ad7b Updated from Git edit
+180314f Revert "Update FinalKey.java"
+79409b8 Update FinalKey.java
+d443726 added some code in Final class
+533dd04 Added Final key class
+7fc4531 added some codes
+c0901ff My first commit
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --soft HEAD^
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/ExceptionHandling/Chrome.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git log --oneline
+5c2d838 (HEAD -> master, origin/master) pulling latest code Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions
+29ec40e  added firefox
+ec48c9d Create Chrome.java
+c726738 update
+b406c12 added again regpage class
+644ded4 Update Google.java
+7f5f72d ipdate
+9ea584d added regPage in Google class
+5fc67e9 Update Google.java
+4ccb2b4 updated Google page class one more time from exlipse
+be3e30a updated Google page class one more time from exlipse
+b7159e3 Update Google.java
+7fe55c5 Update Google.java
+b9f0ef0 updated Google page class
+65b0211 Google from eclipse
+c0ca98c Create Google.java
+5019567 added order page class from eclipse
+f47cefc deleted testing order page class
+036975a (cartpage) Create TestingOrderPage.java
+f597ca7 updated the testing java class
+403843b Create Testingpage.java
+24ba638 Merge pull request #4 from Dineshkm23/test1
+5bf7465 (origin/test1, test1) pulling updated code from master branch Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions into test1
+590d6b6 added calculation java class
+835e10e Merge pull request #3 from Dineshkm23/test1
+2763440 Merge pull request #2 from Dineshkm23/master
+9deba5f commiting updated code to test1 branch
+0f0c44d Merge pull request #1 from Dineshkm23/test1
+1a9c17f commiting code to test1 branch
+64b30db (checkout) deleted test1 class
+d6ffbad added test1 class
+4f72dad updating
+8bf5c53 updating
+562d83b commiting from Git Gui1
+ddf1afc 2nd time
+4f5a5c2 updating the codeee
+3ca3d54 Revert "Updated from Git edit"
+c47ad7b Updated from Git edit
+180314f Revert "Update FinalKey.java"
+79409b8 Update FinalKey.java
+d443726 added some code in Final class
+533dd04 Added Final key class
+7fc4531 added some codes
+c0901ff My first commit
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "updated chrome"
+[master d73a003] updated chrome
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --mixed HEAD^
+Unstaged changes after reset:
+M       src/ExceptionHandling/Chrome.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/ExceptionHandling/Chrome.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/ExceptionHandling/Chrome.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "updated chrome"
+[master 3fb4788] updated chrome
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --hard HEAD^
+HEAD is now at 5c2d838 pulling latest code Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "reset"
+[master 6959008] reset
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/reset.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --soft HEAD^
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/ExceptionHandling/reset.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "reset"
+[master 04444b7] reset
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/reset.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --mixed HEAD^
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/ExceptionHandling/reset.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --mixed HEAD^
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "reset"
+[master 56ec833] reset
+ 2 files changed, 20 insertions(+)
+ create mode 100644 src/ExceptionHandling/Chrome.java
+ create mode 100644 src/ExceptionHandling/reset.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --hard HEAD^
+HEAD is now at 29ec40e  added firefox
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "reset remote"
+[master add18d6] reset remote
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/reset.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+To https://github.com/Dineshkm23/JavaSessions.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dineshkm23/JavaSessions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git pull origin master
+From https://github.com/Dineshkm23/JavaSessions
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ src/ExceptionHandling/Chrome.java | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+ create mode 100644 src/ExceptionHandling/Chrome.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 908 bytes | 908.00 KiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), completed with 3 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   5c2d838..00c8d11  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git commit -m "reset remote update"
+[master 002539b] reset remote update
+ 1 file changed, 1 insertion(+)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 425 bytes | 425.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/Dineshkm23/JavaSessions.git
+   00c8d11..002539b  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --hard HAED^
+fatal: ambiguous argument 'HAED^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git reset --hard HEAD^
+HEAD is now at 00c8d11 pulling latest code Merge branch 'master' of https://github.com/Dineshkm23/JavaSessions
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push origin master
+To https://github.com/Dineshkm23/JavaSessions.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dineshkm23/JavaSessions.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ git push -f origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dineshkm23/JavaSessions.git
+ + 002539b...00c8d11 master -> master (forced update)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaSessions (master)
+$ cd ..
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace
+$ cd Java
+JavaPractice/ JavaSessions/
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace
+$ cd JavaPractice/
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice
+$ pwd
+/c/Users/Administrator/eclipse-workspace/JavaPractice
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice
+$ git init
+Initialized empty Git repository in C:/Users/Administrator/eclipse-workspace/JavaPractice/.git/
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        bin/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   bin/javaPractice/TestJava.class
+        new file:   bin/javaPractice/calculation.class
+        new file:   src/javaPractice/TestJava.java
+        new file:   src/javaPractice/calculation.java
+
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git commit -m "First commit"
+[master (root-commit) 849d46e] First commit
+ 8 files changed, 114 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/javaPractice/TestJava.class
+ create mode 100644 bin/javaPractice/calculation.class
+ create mode 100644 src/javaPractice/TestJava.java
+ create mode 100644 src/javaPractice/calculation.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git remote add origin https://github.com/Dineshkm23/JavaPractice.git
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git push origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (15/15), 3.58 KiB | 733.00 KiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dineshkm23/JavaPractice.git
+ * [new branch]      master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bin/javaPractice/HelloWorld.class
+        src/javaPractice/HelloWorld.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git commit -m "Adding Hello world class commit"
+[master 0640203] Adding Hello world class commit
+ 2 files changed, 10 insertions(+)
+ create mode 100644 bin/javaPractice/HelloWorld.class
+ create mode 100644 src/javaPractice/HelloWorld.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git push origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.11 KiB | 1.11 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Dineshkm23/JavaPractice.git
+   849d46e..0640203  master -> master
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git reset --hard 849d46e8201119e29f55cd5df69fb83093e28e50
+HEAD is now at 849d46e First commit
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bin/javaPractice/HelloWorld1.class
+        src/javaPractice/HelloWorld1.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git commit -m "Adding Hello world1 class commit"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bin/javaPractice/HelloWorld1.class
+        src/javaPractice/HelloWorld1.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git add .
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git commit -m "Adding Hello world1 class commit"
+[master 1e24c20] Adding Hello world1 class commit
+ 2 files changed, 10 insertions(+)
+ create mode 100644 bin/javaPractice/HelloWorld1.class
+ create mode 100644 src/javaPractice/HelloWorld1.java
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git reset --mixed 1e24c20
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@DESKTOP-UAOKV2O MINGW64 ~/eclipse-workspace/JavaPractice (master)
+$
