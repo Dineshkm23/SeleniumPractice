@@ -15,21 +15,21 @@ public class MultipleSelectionWithSelectClass {
 
 	public static void main(String[] args) {
 
-		driver = new ChromeDriver();		
+		driver = new ChromeDriver();
 		driver.get("file:///C:/Users/Administrator/Documents/Documents/multiple.html");
-		
-		WebElement ele=driver.findElement(By.xpath("//*[@id='cars']"));
-		
-		Select select= new Select(ele);
-		
-		if(select.isMultiple()) {
-		select.selectByVisibleText("Volvo");
-		select.selectByVisibleText("Saab");
-		select.selectByVisibleText("Audi");
+
+		WebElement ele = driver.findElement(By.xpath("//*[@id='cars']"));
+
+		Select select = new Select(ele);
+
+		if (select.isMultiple()) {
+			select.selectByVisibleText("Volvo");
+			select.selectByVisibleText("Saab");
+			select.selectByVisibleText("Audi");
 		}
-				select.deselectByVisibleText("Audi");
-		
-		select.deselectAll();
+		select.deselectByVisibleText("Audi");
+
+		//select.deselectAll();
 	}
 
 }

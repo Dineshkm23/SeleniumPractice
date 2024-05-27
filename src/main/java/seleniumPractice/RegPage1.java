@@ -5,11 +5,12 @@ import java.util.UUID;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class RegPageTest {
-
+public class RegPage1 {
 	public static void main(String[] args) {
 
-		String randomEmailId = getRandomNumber();
+		long randomNumber =System.currentTimeMillis();
+		String randomNuString=String.valueOf(randomNumber);
+		String randomEmailId = "Dkautomation"+randomNuString+"@gmail.com";
 		System.out.println("Random number:" + randomEmailId);
 		BrowserUtils brUtil = new BrowserUtils();
 		WebDriver driver = brUtil.launchBrowser("chrome");

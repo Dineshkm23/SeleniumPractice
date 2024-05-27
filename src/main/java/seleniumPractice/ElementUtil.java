@@ -129,6 +129,8 @@ public class ElementUtil {
 	public void doSendKeys(By locator, String value) {
 		getElement(locator).sendKeys(value);
 	}
+	
+	
 
 	public void doSendKeys(String locatorType, String locatorValue, String value) {
 		getElement(getBy(locatorType, locatorValue)).sendKeys(value);
